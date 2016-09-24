@@ -37,5 +37,5 @@ ENDFILE
 cd srv
 
 sleep 3 # wait everything ready
-nohup ./caddy -agree -email gnawux@gmail.com -host wangxu.me &
+./caddy -agree -email gnawux@gmail.com -host wangxu.me > /dev/stdout 2>/dev/stderr
 
